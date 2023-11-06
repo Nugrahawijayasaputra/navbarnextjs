@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const Navbar = () => {
   return (
@@ -10,8 +10,12 @@ const Navbar = () => {
         <li>
           <Link href="/about">About</Link>
         </li>
+        <li>
+          <Link href="/profil">Profil</Link>
+        </li>
       </ul>
     </nav>
   );
 };
+
 export default Navbar;
